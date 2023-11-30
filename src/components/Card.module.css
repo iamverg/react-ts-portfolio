@@ -1,0 +1,35 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cardHexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 115px;
+  height: 100px;
+}
+
+.cardHexagonMedium {
+  width: 280px;
+  height: 250px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cardContainer {
+    margin-bottom: 5rem;
+  }
+}
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

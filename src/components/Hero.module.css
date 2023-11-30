@@ -1,0 +1,30 @@
+.hero {
+  align-self: center;
+  z-index: 9;
+  padding: 1.5rem;
+  height: calc(100vh - 38.69px);
+}
+.heroContent {
+}
+.textRed {
+  color: #e31a6d;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero {
+    padding: 2rem;
+    height: calc(100vh - 87.99px);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

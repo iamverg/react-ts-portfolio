@@ -1,0 +1,74 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 0.5rem 1.75rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  z-index: unset;
+}
+
+.gradientBorder {
+  background: #1d1f20;
+  position: relative;
+  border-radius: 0;
+}
+
+.gradientBorder:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * 3px);
+  left: calc(-1 * 3px);
+  height: calc(100% + 3px * 2);
+  width: calc(100% + 3px * 2);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  border-radius: 3px;
+  z-index: -1;
+  animation: animatedGradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes animatedGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
