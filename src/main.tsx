@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'modern-normalize';
 import './index.css';
+
 import RootLayout from './layouts/RootLayout.tsx';
 import About from './pages/About.tsx';
 import Blog from './pages/Blog.tsx';

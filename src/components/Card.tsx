@@ -19,8 +19,8 @@ export default function Card({
       >
         <img src={imageUrl} alt="" />
       </div>
-      <p>{title}</p>
-      <p>{description}</p>
+      <p className={styles.cardTitle}>{title}</p>
+      <p className={styles.cardDescription}>{description}</p>
     </div>
   );
 }

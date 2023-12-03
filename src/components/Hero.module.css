@@ -3,6 +3,9 @@
   z-index: 9;
   padding: 1.5rem;
   height: calc(100vh - 38.69px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .heroContent {
 }

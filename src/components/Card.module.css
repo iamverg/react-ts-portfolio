@@ -16,6 +16,16 @@
   height: 250px;
 }
 
+.cardTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.cardDescription {
+  margin: 0;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }

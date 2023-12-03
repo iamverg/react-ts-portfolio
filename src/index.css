@@ -57,7 +57,7 @@
   font-family: 'Raleway', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  font-size: 16px;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #252934;
@@ -67,6 +67,97 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.3125rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2.652rem;
+  --font-size-4xl: 4rem;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --radius-xs: 4px;
+  --cta-radius-xs: 4px;
+  --base-font-size: 1rem;
+  --base-line-height: 1.625rem;
+  --base-font-weight: 400;
+  --heading-level-1-size: 2.8125rem;
+  --heading-level-2-size: 2rem;
+  --heading-level-3-size: 1.5rem;
+  --heading-level-4-size: 1.125rem;
+  --heading-level-1-line-height: 3.25rem;
+  --heading-level-2-line-height: normal;
+  --heading-level-3-line-height: normal;
+  --heading-level-4-line-height: normal;
+  --heading-level-1-font-weight: 800;
+  --heading-level-2-font-weight: 900;
+  --heading-level-3-font-weight: 900;
+  --heading-level-4-font-weight: 900;
+}
+body {
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight);
+  line-height: var(--base-line-height);
+
+  --blue-50: #052351;
+  --blue-100: #07306e;
+  --blue-200: #093e8e;
+  --blue-300: #0e5ed9;
+  --blue-400: #2d7fff;
+  --blue-500: #6faaff;
+  --blue-600: #b3d5ff;
+  --blue-700: #e5f1ff;
+  --green-50: #0b2b06;
+  --green-100: #14550b;
+  --green-200: #218913;
+  --green-300: #28a716;
+  --green-400: #0ace35;
+  --green-500: #72db65;
+  --green-600: #aeeca5;
+  --green-700: #eafbe8;
+  --grey-50: #101218;
+  --grey-100: #1b1f27;
+  --grey-200: #2c313c;
+  --grey-300: #4c525f;
+  --grey-400: #676e7b;
+  --grey-500: #bec2cc;
+  --grey-600: #e4e9f0;
+  --grey-700: #f6f8fc;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #f00;
+  --color-primary: var(--blue-400);
+  --color-primary-100: var(--blue-100);
+  --color-primary-200: var(--blue-200);
+  --color-primary-300: var(--blue-300);
+  --color-primary-400: var(--color-primary);
+  --color-primary-500: var(--blue-500);
+  --color-primary-600: var(--blue-600);
+  --color-primary-700: var(--blue-700);
+  --color-primary-50: var(--blue-50);
+  --color-secondary: var(--green-400);
+  --color-secondary-50: var(--green-50);
+  --color-secondary-100: var(--green-100);
+  --color-secondary-200: var(--green-200);
+  --color-secondary-300: var(--green-300);
+  --color-secondary-400: var(--color-secondary);
+  --color-secondary-500: var(--green-500);
+  --color-secondary-600: var(--green-600);
+  --color-secondary-700: var(--green-700);
+  --color-neutral-50: var(--grey-50);
+  --color-neutral-100: var(--grey-100);
+  --color-neutral-200: var(--grey-200);
+  --color-neutral-300: var(--grey-300);
+  --color-neutral-400: var(--grey-400);
+  --color-neutral-500: var(--grey-500);
+  --color-neutral-600: var(--grey-600);
+  --color-neutral-700: var(--grey-700);
 }
 
 a {
@@ -88,6 +179,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 ul {
   margin: 0;
   padding: 0;
