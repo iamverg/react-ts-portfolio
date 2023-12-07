@@ -1,0 +1,66 @@
+.progressBarContainer {
+  display: flex;
+  background-color: var(--color-neutral-500);
+  margin-bottom: 0.375rem;
+}
+.progressBar {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+
+.progressBarSkill {
+  background-color: #03a158eb;
+}
+.progressBarSkillWidth_90 {
+  width: 90%;
+}
+.progressBarSkillWidth_80 {
+  width: 80%;
+}
+.progressBarSkillWidth_70 {
+  width: 70%;
+}
+.progressBarSkillWidth_60 {
+  width: 60%;
+}
+.progressBarSkillWidth_55 {
+  width: 55%;
+}
+.progressBarSkillWidth_50 {
+  width: 50%;
+}
+.progressBarTitle {
+  background-color: #31ffa0e0;
+  color: #000000;
+  font-weight: 600;
+  width: 110px;
+}
+.progressBarPercentage {
+  display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .progressBarPercentage {
+    display: inline;
+    color: #000000;
+    padding-right: 0.875rem;
+    padding-left: 0.875rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .progressBarTitle {
+    flex-shrink: 0;
+  }
+}
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

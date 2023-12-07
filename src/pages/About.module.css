@@ -1,15 +1,15 @@
 .about {
   max-width: 1200px;
 
-  padding: 0 4rem 0 4rem;
+  padding: 0 2rem 0 2rem;
 }
-.container {
+.containerBenefits {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 }
 
-.container__grid_1 {
+.containerAboutMe {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
@@ -18,19 +18,18 @@
   width: 100%;
   height: 250px;
   margin-bottom: 5rem;
-  background-color: antiquewhite;
+  border: 1px dotted antiquewhite;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .container {
+  .containerBenefits {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .container__grid_2_md {
-    display: grid;
+  .containerAboutMe {
     grid-template-columns: repeat(2, 1fr);
   }
   .skills {
@@ -40,7 +39,7 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .container {
+  .containerBenefits {
     grid-template-columns: repeat(4, 1fr);
   }
 }
